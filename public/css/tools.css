@@ -1,0 +1,26 @@
+@media (-webkit-max-device-pixel-ratio: 3),(-moz-max-device-pixel-ratio: 3),(max-device-pixel-ratio: 3) {
+    .border-1px-line:after {
+        display:block;
+        content:'';
+        border-bottom:0.05rem solid #EAEAEA;
+        transform: scaleY(0.33);
+    }
+}
+
+@media (-webkit-max-device-pixel-ratio: 2),(-moz-max-device-pixel-ratio: 2),(max-device-pixel-ratio: 2) {
+    .border-1px-line:after {
+        display:block;
+        content:'';
+        border-bottom:0.05rem solid #EAEAEA;
+        transform: scaleY(0.5);
+    }
+}
+
+@media (-webkit-max-device-pixel-ratio: 1.5),(-moz-max-device-pixel-ratio: 1.5),(max-device-pixel-ratio: 1.5) {
+    .border-1px-line:after {
+        display:block;
+        content:'';
+        border-bottom:0.05rem solid #EAEAEA;
+        transform: scaleY(0.7);
+    }
+}
